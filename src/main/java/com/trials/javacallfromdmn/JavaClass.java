@@ -14,7 +14,7 @@ public class JavaClass {
    }
    
    
-    public static List<String> hello(String name){
+    public static List<String> helloList(String name){
         List<String> list = new ArrrayList<>();
         list.add("h1");
         list.add("h2");

@@ -15,7 +15,7 @@ public class JavaClass {
    
    
     public static List<String> helloList(String name){
-        List<String> list = new ArrrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("h1");
         list.add("h2");
        return list;

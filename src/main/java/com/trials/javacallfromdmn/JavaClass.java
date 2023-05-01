@@ -19,7 +19,7 @@ public class JavaClass {
    
     
    
-   public static HolidayDTO getHoliday(String name){
+   public static HolidayDTO getholiday(String name){
         HolidayDTO holiday = new HolidayDTO();
         holiday.setCalendarDate(name);
         CurrencyDTO currency = new CurrencyDTO("USD", false, false);

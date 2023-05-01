@@ -20,7 +20,7 @@ public class JavaClass {
     public static List<HolidayDTO> hellomore(String name){
         HolidayDTO holiday = new HolidayDTO();
         holiday.setCalendarDate(name);
-        CurrencyDTO currency = new Currency("USD", false, false);
+        CurrencyDTO currency = new CurrencyDTO("USD", false, false);
         List<CurrencyDTO> list = new ArrayList<>();
         list.add(currency);
         holiday.setCurrencies(list);
